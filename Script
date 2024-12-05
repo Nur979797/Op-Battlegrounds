@@ -507,6 +507,12 @@ Tab:AddButton({
 	end
 })
 Tab:AddButton({
+	Name = "walkspeed",
+	Callback = function()
+		workspace.nurasir2011.Humanoid.WalkSpeed = 50
+	end    
+})
+Tab:AddButton({
 	Name = "Admin spacs1",
 	Callback = function()
 	for i = 1, 100000 do
